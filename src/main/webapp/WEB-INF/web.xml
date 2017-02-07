@@ -14,7 +14,8 @@
       <param-value>/WEB-INF/config/servlet-config.xml</param-value>
     </init-param>
   </servlet>
-  
+
+  <!-- Adds mapping of routes to servlet -->
   <servlet-mapping>
     <servlet-name>fitTrackerServlet</servlet-name>
     <url-pattern>*.html</url-pattern>
