@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
+    /* This function can be named whatever we want.
+    By annotating it to a request mapping we tell the dispatcher to call this function when we match /greeting.
+    By having a Model object parameters, we set this model object as the model for our view.
+     */
     @RequestMapping(value = "/greeting")
     public String sayHello(Model model) {
 
