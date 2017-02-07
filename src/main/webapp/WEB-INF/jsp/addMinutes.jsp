@@ -9,19 +9,19 @@
 <title>Add Minutes Page</title>
 </head>
 <body>
-<h1>Add Minutes Exercised</h1>
-<form:form commandName="exercise">
-	<table>
-		<tr>
-			<td>Minutes Exercise For Today:</td>
-			<td><form:input path="minutes"/></td>
-		</tr>
-		<tr>
-			<td colspan="2">
-				<input type="submit" value="Enter Exercise"/>
-			</td>
-		</tr>
-	</table>
-</form:form>
+    <h1>Add Minutes Exercised</h1>
+    <form:form commandName="exercise">
+        <table>
+            <tr>
+                <td>Minutes exercised today:</td>
+                <td><form:input path="minutes" /></td>
+            </tr>
+            <tr>
+                <td col-span="2">
+                    <input type="submit" value="Enter exercise" />
+                </td>
+            </tr>
+        </table>
+    </form:form>
 </body>
 </html>
