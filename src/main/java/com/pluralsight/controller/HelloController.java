@@ -17,8 +17,11 @@ public class HelloController {
     @RequestMapping(value = "/greeting")
     public String sayHello(Model model) {
 
-        model.addAttribute("Greeting", "Hello world");
+        model.addAttribute("greeting", "Hello Jan");
 
+        System.out.println("Test");
+
+        // Go to the 'hello' JSP page.
         return "hello";
     }
 
