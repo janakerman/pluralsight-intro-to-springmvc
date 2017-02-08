@@ -20,5 +20,11 @@
     <servlet-name>fitTrackerServlet</servlet-name>
     <url-pattern>*.html</url-pattern>
   </servlet-mapping>
+
+  <!-- Adds mapping of routes to servlet -->
+  <servlet-mapping>
+    <servlet-name>fitTrackerServlet</servlet-name>
+    <url-pattern>/pdfs/**</url-pattern>
+  </servlet-mapping>
   
 </web-app>

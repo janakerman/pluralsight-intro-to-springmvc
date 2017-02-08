@@ -13,12 +13,12 @@
     <form:form commandName="exercise">
         <table>
             <tr>
-                <td>Minutes exercised today:</td>
+                <td></td>
                 <td><form:input path="minutes" /></td>
             </tr>
             <tr>
                 <td col-span="2">
-                    <input type="submit" value="Enter exercise" />
+                    <input type="submit" value="Enter exercise"
                 </td>
             </tr>
         </table>
